@@ -1,0 +1,181 @@
+﻿/* ~~~~~ RESET ~~~~~ */
+html, body, address, blockquote, div, dl, form, h1, h2, h3, h4, h5, h6, ol, p, pre, table, ul,
+dd, dt, li, tbody, td, tfoot, th, thead, tr, button, del, ins, map, object,
+a, abbr, acronym, b, bdo, big, br, cite, code, dfn, em, i, img, kbd, q, samp, small, span,
+strong, sub, sup, tt, var, legend, fieldset {
+	margin: 0;
+	padding: 0;
+	color: #000;
+}
+img, fieldset {
+	border: 0;
+}
+
+/* ~~~~~ FORMAT ~~~~~ */
+
+body, select, input, textarea {
+	font: 85%/1.5 arial, helvetica, sans-serif;
+}
+
+/* ~~~~~ LAYOUT ~~~~~ */
+/* div { border: 1px solid #ccc; } */ 
+
+body
+{
+	margin: 0;
+	padding-top: 0;
+	padding-left: 50;
+	color: #333;
+	background-color: #E8C397;
+	font-family: arial, hevetica, sans-serif;
+	font-size: 100%;
+	background-image: url(../images/bg1.jpg);
+}
+#container {
+	min-width: 500px;
+	max-width: 1400px;
+	margin: 0 auto;
+	width: 900px;
+	overflow: hidden;
+}
+#header {
+	background-color: #DDD;
+}
+
+#navcontainer {
+	overflow: hidden;
+	margin-bottom: 10px;
+	width: 100%;
+	font: bold 16px Arial;
+}
+* html #navcontainer {
+	height: 1%;	
+}
+#navcontainer ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	float: right;
+	width: 100%; /*width of menu*/
+	border: 1px solid #564c66; /*dark purple border*/
+	border-width: 1px 0;
+	background: black url(../images/ibg.gif) center center repeat-x;
+}
+#navcontainer li{
+	display: inline;
+	float: right;
+	margin-right: 10px;
+}
+
+
+#navcontainer a, #navcontainer a:link {
+	color: #CCC;	
+}
+
+#navcontainer  li a{
+	float: none;
+	color: white; /*text color*/
+	padding: 5px 11px;
+	text-decoration: none;
+	border-right: 1px solid #564c66;
+}
+
+#navcontainer  li a:visited{
+color: white;
+}
+
+#navcontainer  li a:hover, #navcontainer  li .selected{
+	color: white !important; /*text color of selected and active item*/
+	padding-top: 12px; /*shift text down 1px for selected and active item*/
+	padding-bottom: 4px; /*shift text down 1px for selected and active item*/
+	background: black url(../images/ibg2.gif) center center repeat-x;
+}
+#post_container { border: 0px solid #ccc; } 
+.separator { clear:both; margin-top: 5px; margin-bottom:3px; border: 0px solid #ccc; } 
+#right_container {width: 190px; float: right; border: 0px solid #ccc; } 
+#right_pan { 
+	border-left: 0px solid #C5C877;
+	width: 190px; 
+	border-style: solid solid none solid;
+	border-color: #94AA74;
+	border-width: 0px;
+	margin-left: 5px; 
+	float: right;
+}
+#right_pan { padding-left: 2px; padding-right: 2px;  padding-bottom: 2px; padding-top: 2px; }
+#right_pan h2 { margin-top: 0px;  padding-top: 2px;  margin-bottom: 10px;  font-size: 16px;  padding-bottom: 5px;  display: block;  border-bottom: 1px solid #ccc;  color: #8CBFF8; }
+#right_pan h3 { margin-top: 0px;  padding-top: 2px;  margin-bottom: 10px;  font-size: 16px;  padding-bottom: 5px;  display: block;  border-bottom: 1px solid #ccc;  color: #FFFF00; }
+#right_pan h4 { margin-top: 0px;  padding-top: 2px;  margin-bottom: 10px;  font-size: 14px;  padding-bottom: 5px;  display: block;  border-bottom: 1px solid #ccc;  color: #FFFF00; }
+#right_pan h5 { margin-top: 0px;  padding-top: 2px;  margin-bottom: 10px;  font-size: 22px;  padding-bottom: 5px;  display: block;  border-bottom: 1px solid #ccc;  color: #FFFF00; }
+#right_pan ul  { padding:0px;  margin: 0px; /* for IE */  list-style:none; }
+.sidebar_container {  padding-left: 10px;  padding-right: 10px;  padding-top: 5px;  padding-bottom: 5px;  background-color: #093C76;  color: #eee; }
+#right_pan a:link, #right_pan a:hover, #right_pan a:visited {  color: #eee;  text-decoration: none; }
+#right_pan a:hover {  text-decoration: underline; }
+
+#content_pan {float: left; border: 0px solid #ccc; } 
+#content_pan  {  width: 690px;  padding-left: 5px; }
+#content_pan  {  font-size: 14px; }
+#content_pan h2 {  margin-top: 0px;  font-size: 18px;  display: block;  margin-bottom: 5px; }
+#content_pan .meta { font-size: 12px; padding-bottom: 5px;  border-bottom: 1px solid #ABB9C8; }
+#content_pan a:hover, #content_pan a:link, #content_pan a:visited {  text-decoration: none;  color: #27486E; }
+#content_pan .comments { padding-bottom: 20px; }
+
+#footer {
+  margin: 10;
+  padding: 10px;
+  font-size: 90%;
+  color: rgb(204, 204, 197);
+  text-align: center;
+}
+#footer strong {
+  padding: 0 0 0 28px;
+  }
+#menu2{
+	border-left: 1px solid #C5C877;
+	width: 190px; /*width of menu*/
+	border-style: solid solid none solid;
+	float: right;	
+	border-color: #94AA74;
+	border-width: 0px;
+	margin-left: 5px;
+	padding-left: 2px; padding-right: 2px;  padding-bottom: 2px; padding-top: 2px;
+}
+
+#menu2 ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+	
+#menu2 li a{
+	font: bold 18px "Times New Roman", Times, serif;
+	display: block;
+	background: transparent url(../images/menu2.gif) 100% 0;
+	height: 24px; /*Set to height of bg image- padding within link (ie: 32px - 4px - 4px)*/
+	padding: 4px 0 4px 10px;
+	line-height: 24px; /*Set line-height of bg image- padding within link (ie: 32px - 4px - 4px)*/
+	text-decoration: none;
+	text-align: right;
+	padding-right: 5px;
+}	
+	
+#menu2 li a:link, #menu2 li a:visited {
+	color: #666633;
+}
+
+#menu2 li a:hover{
+	color: #26370A;
+	background-position: 100% 64px;
+}
+
+	
+#menu2 li a.selected{
+	color: #000000;
+	background-position: 100% 32px;
+}
+.button1       { margin:0; padding:3px 10px; font-size:1em; color:black; 
+                 cursor:pointer; 
+				 width:130px;
+                 background:url("../images/g1.jpg") repeat-x left bottom; 
+                 border-left:1px solid yellow; border-right:1px solid orange; 
+                 border-top:1px solid yellow; border-bottom:1px solid orange; }  

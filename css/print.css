@@ -1,0 +1,47 @@
+body
+{
+	margin: 10pt;
+	padding: 0;
+	font-family: arial, helvetica, sans-serif;
+	background-color: #fff;
+	color: #000;
+}
+
+.clearboth { clear: both; }
+
+code
+{
+	display: block;
+	border: 1px solid #666;
+	background-color: #ddd;
+	padding: 10px;
+	color: #000;
+	font-family: courier, "courier new", monospace;
+}
+
+address
+{
+	border-top: 1px solid #000;
+	padding-top: 5px;
+}
+
+#nav { display: none; }
+
+a:link, a:visited
+{
+	color: #000;
+	background-color: transparent;
+}
+
+a:hover, a:active
+{
+	color: #fff;
+	background-color: #000;
+}
+
+.new
+{
+	color: #900;
+	background-color: transparent;
+	font-weight: bold;
+}
